@@ -12,3 +12,7 @@ end
 group :darwin do
   gem 'terminal-notifier-guard'
 end
+
+group :development, :test do
+  gem 'pry'
+end
